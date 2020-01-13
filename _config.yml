@@ -30,7 +30,7 @@ masthead_title           : "My Custom Title"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman" # (default), "disqus", "discourse", "facebook", , "staticman_v2", "utterances", "custom"
+  provider               : # "staticman" # (default), "disqus", "discourse", "facebook", , "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -45,20 +45,20 @@ comments:
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment by {fields.name}"
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  branch                 : #"master"
+  commitMessage          : #"New comment by {fields.name}"
+  filename               : #comment-{@timestamp}
+  format                 : #"yml"
+  moderation             : #true
+  path                   : #"/_data/comments/{options.slug}" (default)
+  requiredFields         : #['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : #"md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : #"date"
       options:
-        format           : "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : #"iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                :
