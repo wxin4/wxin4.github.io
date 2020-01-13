@@ -30,7 +30,7 @@ masthead_title           : "My Custom Title"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "staticman" # (default), "disqus", "discourse", "facebook", , "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -48,7 +48,7 @@ staticman:
   branch                 : "master"
   commitMessage          : "New comment by {fields.name}"
   filename               : comment-{@timestamp}
-  format                 : "yaml"
+  format                 : "yml"
   moderation             : true
   path                   : "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
