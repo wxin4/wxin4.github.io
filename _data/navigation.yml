@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Leetcode Solutions"
     url: https://leetcode.com/problemset/top-100-liked-questions/
   - title: "All Techs"
