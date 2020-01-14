@@ -297,7 +297,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
       read_time: true
       comments: true
@@ -306,17 +306,17 @@ defaults:
       read_time: true
   # _portfolio
   - scope:
-      path: ""
+      path: "_pages"
       type: portfolio
     values:
-      layout: single
+      layout: post
       author_profile: true
       share: true
   # about
   - scope:
-      path: ""
+      path: "_pages"
       type: about
     values:
-      layout: single
+      layout: post
       author_profile: true
       share: true
