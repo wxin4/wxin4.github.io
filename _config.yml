@@ -297,7 +297,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: posts
+      layout: single
       author_profile: true
       read_time: true
       comments: true
@@ -316,7 +316,7 @@ defaults:
       path: "_pages"
       type: portfolio
     values:
-      layout: posts
+      layout: single
       author_profile: true
       share: true
   # about
@@ -324,6 +324,6 @@ defaults:
       path: "_pages"
       type: about
     values:
-      layout: posts
+      layout: single
       author_profile: true
       share: true
