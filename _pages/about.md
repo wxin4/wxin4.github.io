@@ -1,5 +1,5 @@
 ---
-title: About
+title: About My Site
 layout: default
 permalink: /about/
 collection: about
