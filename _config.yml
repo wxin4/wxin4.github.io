@@ -286,6 +286,9 @@ collections:
   about:
     output: true
     permalink: /:collection/:path/
+  terms:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -305,6 +308,14 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # about
+  - scope:
+      path: ""
+      type: about
     values:
       layout: single
       author_profile: true
