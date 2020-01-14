@@ -1,6 +1,6 @@
 ---
 title: About My Site
-layout: single
+layout: collection
 permalink: /about/
 collection: about
 entries_layout: grid
