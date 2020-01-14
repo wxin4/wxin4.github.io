@@ -3,8 +3,8 @@ permalink: /terms/
 title: "Terms and Privacy Policy"
 last_modified_at: 2016-06-06
 toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+toc_label: " ON THIS PAGE"
+toc_icon: "award"
 ---
 
 ## Privacy Policy
