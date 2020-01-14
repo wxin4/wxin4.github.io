@@ -4,7 +4,7 @@ title: "Terms and Privacy Policy"
 last_modified_at: 2016-06-06
 toc: true
 toc_label: " ON THIS PAGE"
-toc_icon: "award"
+toc_icon: "crosshairs"
 ---
 
 ## Privacy Policy
