@@ -1,15 +1,15 @@
 ---
 title:  "Exclude Post from Search Index"
-search: false
+search: true
 categories: 
   - Jekyll
 last_modified_at: 2018-02-19T08:05:34-05:00
 ---
 
-This post should not appear in the search index because it has the following YAML Front Matter:
+This post should appear in the search index because it has the following YAML Front Matter:
 
 ```yaml
-search: false
+search: true
 ```
 
 **Note:** `search: false` only works to exclude posts when using **Lunr** as a search provider.
