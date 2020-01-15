@@ -314,7 +314,7 @@ defaults:
   # _interview
   - scope:
       path: "_interview"
-      type: posts
+      type: interview
     values:
       layout: single
       author_profile: true
