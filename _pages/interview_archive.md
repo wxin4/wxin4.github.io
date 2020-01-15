@@ -1,7 +1,6 @@
 ---
-layout: single
+layout: posts
 title: "Interview Review"
-collection: interview
 permalink: /interview-archive/
 author_profile: true
 ---
