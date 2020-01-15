@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Leetcode Solutions"
+  - title: "Leetcode"
     url: https://leetcode.com/problemset/top-100-liked-questions/
-  - title: "All Techs"
+  - title: "Interview"
     url: /posts/
   - title: "Portfolio"
     url: /portfolio/
