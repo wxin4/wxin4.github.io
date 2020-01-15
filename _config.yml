@@ -311,6 +311,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _interview
+  - scope:
+      path: "_interview"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
   # _portfolio
   - scope:
       path: "_pages"
