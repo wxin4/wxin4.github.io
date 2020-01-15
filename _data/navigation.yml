@@ -3,9 +3,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Leetcode"
-    url: https://leetcode.com/problemset/top-100-liked-questions/
-  - title: "Interview"
     url: /posts/
+  - title: "Interview"
+    url: /categories/
   - title: "Portfolio"
     url: /portfolio/
   - title: "Terms"
