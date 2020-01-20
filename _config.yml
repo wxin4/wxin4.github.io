@@ -67,11 +67,11 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
 search_full_content      : true
-search_provider          : algolia
+search_provider          : lunr
 algolia:
-  application_id         : DSYQFNCRUC
-  index_name             : Wei
-  search_only_api_key    : b4aac11bf61c0645a230824c2de419ba
+  application_id         : # DSYQFNCRUC
+  index_name             : # Wei
+  search_only_api_key    : # b4aac11bf61c0645a230824c2de419ba
   powered_by             : # true (default), false
 google:
   search_engine_id       : # "015399993398269870414"
@@ -221,7 +221,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -304,6 +304,7 @@ defaults:
       share: true
       related: true
       read_time: true
+      search : true
   # _pages
   - scope:
       path: ""
