@@ -24,7 +24,7 @@ description              : "Where amazing happens."
 url                      : "https://wxin4.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/beach.jpg"
+teaser                   : # "/assets/images/beach.jpg"
 logo                     : "/assets/images/campaign_76x76.png"
 masthead_title           : # "My Custom Title"
 # breadcrumbs            : false # true, false (default)
