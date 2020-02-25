@@ -1,0 +1,66 @@
+---
+title: 2. Add Two Numbers
+search: true
+categories:
+  - LeetCode Top 100
+published: true
+toc: true
+toc_label: "ON THIS PAGE"
+toc_icon: "crosshairs"
+tag: Medium
+---
+Return indices of the two numbers such that they add up to a specific target.
+## Question
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+```
+Given nums = [2, 7, 11, 15], target = 9,
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+```
+
+## Analyzation
+
+1. HashMap - Since we need to find the pair that add up to the target value, we can use hashmap to store the (target - nums.i). If the (target - nums.i) is in the nums array, we found the pair.
+
+2. Note that we need to return the `new int[]{0,0}` if we cannot find the pair.
+
+3. Using the example above, we put `((9 - 2), index)` to the map if the map does not contain the value 2, and go to the next value in the array. We can see when we find 7, the map contains it, so we return the 2's index and the 7's index.
+
+
+## The Code
+```
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        // check the validity
+        if(nums.length == 0 || nums == null){
+            return new int[]{0,0};
+        }
+        
+        // map the nums values and the target - nums[i] values indices
+        HashMap<Integer, Integer> map = new HashMap<>();
+        
+        // iterate the nums array
+        for(int i = 0; i < nums.length; i++){
+            if(map.containsKey(nums[i])){
+                return new int[]{map.get(nums[i]), i};
+            }
+            else{
+                map.put(target - nums[i], i);
+            }
+        }
+        
+        // if not found, return empty array
+        return new int[]{0,0};
+    }
+}
+```
+
+## Time & Space Complexity
+- Time Complexity: Since we create a loop so it is `O(n)`.
+- Space Complexity: Since we use an extra memory which is HashMap, the Space Complexity is also `O(n)`.
