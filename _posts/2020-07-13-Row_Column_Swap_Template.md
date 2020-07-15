@@ -1,5 +1,5 @@
 ---
-title: 行列互换技巧
+title: Row_Column_Swap_Template
 search: true
 categories:
   - MySQL Tricks
