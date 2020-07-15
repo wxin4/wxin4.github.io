@@ -10,7 +10,7 @@ toc_icon: crosshairs
 tag: Easy
 ---
 
-## 行列互换模板
+## Row_Column_Swap_Template
 
 ![image](/assets/images/行列互换.png)
 
