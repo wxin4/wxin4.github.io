@@ -2,7 +2,7 @@
 title: Row & Column Swap Template
 search: true
 categories:
-  - MySQL
+  - SQL
 published: true
 toc: true
 toc_label: ON THIS PAGE
