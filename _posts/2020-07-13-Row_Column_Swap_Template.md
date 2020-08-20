@@ -1,8 +1,8 @@
 ---
-title: Row_Column_Swap_Template
+title: Row & Column Swap Template
 search: true
 categories:
-  - MySQL Tricks
+  - MySQL
 published: true
 toc: true
 toc_label: ON THIS PAGE
