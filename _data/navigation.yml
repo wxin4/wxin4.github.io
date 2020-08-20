@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "All-In-One"
+  - title: "Blogs"
     url: /categories/
   - title: "Portfolio"
     url: /portfolio/
