@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 
-In this section, there is a portfolio with three documents regarding to three courses projects from the Master's Degree of Computer Science at Arizona State University. In brief, they are CSE535 Mobile Computing, CSE569 Fundamental of Statistical Learning, and CSE572 Data Mining. Note that **all documents are personal and has copyright from me so they are just for reference usage. **
+In this section, there is a portfolio with three documents regarding to three courses projects from the Master's Degree of Computer Science at Arizona State University. In brief, they are CSE535 Mobile Computing, CSE569 Fundamental of Statistical Learning, and CSE572 Data Mining. Note that **all documents are personal and has copyright from me so they are just for reference usage.**
 
 ## CSE535 Mobile Computing Portfolio Project Report
 
